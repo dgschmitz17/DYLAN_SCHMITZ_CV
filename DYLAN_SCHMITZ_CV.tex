@@ -1,0 +1,347 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Dylan Schmitz - Academic Curiculum Vitae
+% Last updated: 2019-12-16
+%
+% This template was adapted from http://www.LaTeXTemplates.com, original
+% by Alessandro Plasmati.
+%
+% Important note:
+% This template needs to be compiled with XeLaTeX.
+% The main document font is called Fontin and can be downloaded for free
+% from here: http://www.exljbris.com/fontin.html
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper,10pt]{article} % Default font size and paper size
+
+\usepackage{fontspec} % For loading fonts
+\defaultfontfeatures{Mapping=tex-text}
+\setmainfont[SmallCapsFont = Fontin SmallCaps]{Fontin} % Main document font
+
+\usepackage{xunicode,xltxtra,url,parskip} % Formatting packages
+
+\usepackage[usenames,dvipsnames]{xcolor} % Required for specifying custom colors
+
+\usepackage[big]{layaureo} % Margin formatting of the A4 page, an alternative to layaureo can be \usepackage{fullpage}
+% To reduce the height of the top margin uncomment: \addtolength{\voffset}{-1.3cm}
+
+\usepackage{hyperref} % Required for adding links and customizing them
+\definecolor{linkcolour}{rgb}{0,0.2,0.6} % Link color
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour} % Set link colors throughout the document
+
+\usepackage{titlesec} % Used to customize the \section command
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule] % Text formatting of sections
+\titlespacing{\section}{0pt}{3pt}{3pt} % Spacing around sections
+
+\usepackage{array}
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+
+\begin{document}
+
+\pagestyle{empty} % Removes page numbering
+
+\font\fb=''[cmr10]'' % Change the font of the \LaTeX command under the skills section
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\par{\centering{\Huge Dylan \textsc{Schmitz}}\bigskip\par} % Your name
+
+\section{Contact Information}
+
+\begin{tabular}{rl}
+\textsc{Address:} & 1012 Rockefeller Lane \\
+& Madison, WI, 53704 \\
+\textsc{Phone:} & (605) 929-1907\\
+\textsc{email:} & \href{mailto:dgschmitz@wisc.edu}{dgschmitz@wisc.edu}
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	SUMMARY STATEMENT 
+%----------------------------------------------------------------------------------------
+
+\section{Summary Statement}
+Current Graduate Research Fellow in Mechanical Engineering at \textsc{The University of Wisconsin--Madison}. Proficient in research and project management with experience in many academic and industrial engineering fields. Passionate about channeling my engineering skills into work that improves the safety and well-being of individuals and society at large.
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\begin{tabular}{r|p{11cm}}	
+
+\textsc{Sept} 2017-- & Doctor of Philosophy in \textsc{Mechanical Engineering} \\
+\emph{present} & \textbf{The University of Wisconsin--Madison}, Madison, WI \\
+& Advisor: Dr. Darryl Thelen | Neuromuscular Biomechanics Laboratory \\
+& Area of Focus: Biomechanics | \textsc{Gpa}: 4.0/4.0 \\
+& \\
+
+%------------------------------------------------
+
+\textsc{Sept 2017}-- & Master of Science in \textsc{Mechanical Engineering} \\
+\textsc{Aug 2019} & \textbf{The University of Wisconsin--Madison}, Madison, WI \\
+& Area of Focus: Biomechanics | \textsc{Gpa}: 4.0/4.0 \\
+& \\
+
+%------------------------------------------------
+
+\textsc{Aug} 2013--& Bachelor of Science in \textsc{Engineering} (ABET)\\
+\textsc{May} 2017 & \textbf{Dordt College}, Sioux Center, IA \\
+& Concentration: Mechatronics | \textsc{Gpa}: 3.997/4.0 \\
+
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	RESEARCH 
+%----------------------------------------------------------------------------------------
+
+\section{Research}
+
+\begin{tabular}{r|p{11cm}}
+\textsc{Sept 2017--} & Graduate Research Fellow at \textsc{The University of Wisconsin--Madison} \\
+\emph{present} & \emph{Neuromuscular Biomechanics Laboratory}\\ 
+& \footnotesize{
+Advances in exoskeletons and exosuit technologies are enabling the use of powered assistance to both enhance locomotor performance in able-bodied individuals and to assist individuals who exhibit gait pathologies. A major challenge in exosuit design involves coupling the external assistance with the internal actuation generated by an individual’s muscles and tendons. My work seeks to bridge this gap by 1) understanding how an exoskeleton or exosuit changes the muscle-tendon behavior in real-time and 2) developing improved biofeedback mechanisms to better interface between an assistive robotic device and the user. This work includes a new collaboration between my lab and the Harvard Biodesign Lab at \textsc{Harvard University}.
+}\\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+\textsc{Aug 2016--} & Research Assistant at \textsc{Dordt College}, Sioux Center, IA \emph{}\\
+\textsc{Aug 2017} & \emph{Motion Biomechanics Laboratory}\\ 
+& \footnotesize{
+The prevalence of non-traumatic pain in the shoulders of volleyball athletes necessitates research into likely causes and preventions. My work sought to develop a simple method to estimate the contact force between a volleyball and the hand during a spike or serve using 3D motion capture and a simple impulse-momentum analysis.
+}\\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+\textsc{Jan--} & Research Intern at \textsc{Augustana College}, Sioux Falls, SD \emph{}\\
+\textsc{Mar 2011} & \emph{Wells Laboratory} \\
+& \footnotesize{
+Much of our intuition about strong-field processes is built upon studies of diatomic molecules, which typically have electronic states that are relatively well separated in energy. In polyatomic molecules, however, the electronic states are closer together, leading to more complex interactions. My work focused on the photoionization of ethylene in a strong electromagnetic field. This internship included on-site collaboration with \textsc{Kansas State University} and the J.R. MacDonald Laboratory.
+} \\
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	GRANTS, FELLOWSHIPS AND SCHOLARSHIPS
+%----------------------------------------------------------------------------------------
+
+\section{Fellowships and Scholarships}
+
+\begin{tabular}{rl}
+\textsc{graduate} & National Science Foundation Graduate Research Fellowship (Awarded 2019) \\
+& \textsc{The University of Wisconsin--Madison} Chancellor's Fellowship \\
+\\
+\textsc{undergraduate} & Steensma Engineering Scholarship \\
+& ECC Engineering Scholarship \\
+& Dordt College Presidential Scholarship \\
+& Dordt College Distinguished Scholar \\
+& Music Keyboard Scholarship \\
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	HONORS AND AWARDS
+%----------------------------------------------------------------------------------------
+
+%\section{Honors and Awards}
+
+%\begin{tabular}{rl}
+
+%\end{tabular}
+
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS
+%----------------------------------------------------------------------------------------
+
+\section{Publications}
+
+\begin{tabular}{rp{13cm}}
+{[1]} & \textbf{Schmitz, D. G.}, Thelen, D. G., Roth, J. D. (2020). Biomechanical Consequences of Ligament Releases During Total Knee Arthroplasty. \emph{In preparation.} \\
+\\
+{[2]} & \textbf{Schmitz, D. G.}, Galloy, A., Frisch, K. E. (2020). Quantifying contact loading during a volleyball spike. \emph{In preparation.} \\
+\\
+{[3]} & Martin, J. A., \textbf{Schmitz, D. G.}, Ehlers, A. C., Allen, M. S., \& Thelen, D. G. (2019). Calibration of the shear wave speed-stress relationship in ex vivo tendons. Journal of Biomechanics, 90, 9–15.\hyperlink{https://doi.org/10.1016/j.jbiomech.2019.04.015}{\hfill | \footnotesize Full Text} \\
+\\
+{[4]} & Jochim, B., Siemering, R., Zohrabi, M., Voznyuk, O., Mahowald, J. B., \textbf{Schmitz, D. G.}, {\ldots} de Vivie-Riedle, R. (2017). The importance of Rydberg orbitals in dissociative ionization of small hydrocarbon molecules in intense laser fields. Scientific Reports, 7(1), 4441.
+\hyperlink{https://doi.org/10.1038/s41598-017-04638-0}{\hfill | \footnotesize Full Text} \\
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	CONFERENCES AND PRESENTATIONS
+%----------------------------------------------------------------------------------------
+
+\section{Conferences and Presentations}
+
+%\begin{tabular}{p{10cm}l}
+%\begin{tabular}{>{\raggedright}p{10cm}l}
+
+\begin{tabular}{L{11cm} l} 
+\multicolumn{2}{l}{\textsc{International Society of Biomechanics Meeting 2019}} \\
+"Investigating Changes in Tendon Load During Walking With Exosuit Assistance" & \textsc{poster} \\
+\multicolumn{2}{c}{} \\
+
+\multicolumn{2}{l}{\textsc{American Society of Biomechanics Meeting 2018}} \\
+"Added Mass Effects on Tendon Vibration Under Axial Load" & \textsc{poster} \\
+\multicolumn{2}{c}{} \\
+
+\multicolumn{2}{l}{\textsc{American Society of Biomechanics Meeting 2017}} \\
+"Quantifying contact loading during a volleyball spike" & \textsc{poster} \\
+"Volleyball contact initiates arm deceleration during a hit" & \textsc{poster} \\
+\multicolumn{2}{c}{} \\
+
+\multicolumn{2}{l}{\textsc{Dordt College IdeaFest 2017}} \\
+"Spike Force 3.0: A wearable volleyball force sensor" & \textsc{presentation} \\
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	WORK/LEADERSHIP EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\section{Work/Leadership Experience}
+
+\begin{tabular}{r|p{11cm}}
+\textsc{May--Aug} & Engineering Intern at \textsc{Groschopp Inc.} \emph{} \\ 
+\textsc{2016} & \emph{Sioux Center, IA} \\
+& \footnotesize{
+I conceptualized and designed a software package for sound analysis of electric motors and gearmotors. I analyzed high-frequency torque signal data to diagnose discrepancies in gear reducer life results between different test stands. I also optimized a Vickers hardness testing procedure for heat-treated motor and reducer parts.
+} \\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+\textsc{May--Aug} & Product Development Intern at \textsc{Adams Thermal Systems} \emph{}\\
+\textsc{2015} & \emph{Canton, SD} \\
+& \footnotesize{
+I designed and supported heat exchanger development and manufacturing. I learned and used PTC Creo 2.0 3D CAD software, some STAR CCM+ CFD modeling software, and engineering documentation (ECR/ECN’s, Deviations, formal drawings, work instructions, etc.). Through my responsibilities, I collaborated with Applications, Quality, Fabrication, Prototype, Testing, and Manufacturing engineering divisions.
+} \\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+\textsc{Jan--May} & Lab Instructor at \textsc{Dordt College} \emph{}\\
+\textsc{2017} & \emph{Sioux Center, IA} \\
+& \footnotesize{
+I co-taught a lab section for an introductory electrical engineering class. My responsibilities included lab project and assignment development, lesson preparation, weekly lectures, and individual instruction.
+} \\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+\textsc{May 2015--} & ASME Chapter President at \textsc{Dordt College} \emph{}\\
+\textsc{May 2016} & \emph{Sioux Center, IA} \\
+& \footnotesize{
+My responsibilities included chairing weekly meetings, coordinating events, and collaborating with other student clubs. While president, I motivated, planned and lead small-scale community service construction projects via local charities.
+} \\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+\textsc{Aug 2014--} & Student Assistant at \textsc{Dordt College} \emph{}\\
+\textsc{May 2015} & \emph{Sioux Center, IA} \\
+& \footnotesize{
+I graded homework, aided the professors in-class, and provided assistance to students outside class time.
+} \\
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	LICENSES AND CERTIFICATIONS
+%----------------------------------------------------------------------------------------
+
+\section{Licenses and Certifications}
+
+\begin{itemize}
+\item Engineer In Training (EIT), FE Exam Pass May 17, 2017
+\item CITI human subject research certification, received October 2018
+\item HIPAA training, completed October 2018
+\end{itemize}
+
+%----------------------------------------------------------------------------------------
+%	SKILLS
+%----------------------------------------------------------------------------------------
+
+\section{Skills}
+
+\begin{tabular}{rl}
+\textsc{Software} & OptiTrack Motive, Bertec Acquire, OpenSim \\
+& Solidworks, PTC Creo, STAR CCM+ CFD \\
+& Robot Operating System (ROS) \\
+& git and Github \\
+& MTS TestSuite \\
+\multicolumn{2}{c}{} \\
+
+\textsc{Programming} & C, MATLAB, LabVIEW, Bash, Java, Python, VBA Macros \\
+\textsc{Languages} &  \\
+\multicolumn{2}{c}{} \\
+
+\textsc{Laboratory} & 3D printing, Basic dissection, UW biosafety training \\
+\textsc{skills} & \\
+
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	BROADER IMPACTS
+%----------------------------------------------------------------------------------------
+
+\section{Broader Impacts}
+
+\begin{tabular}{r|p{11cm}}
+\textsc{2019} & Biomechanics at Engineering Expo Coordinator \emph{} \\
+\textsc{2018} & Biomechanics at Engineering Expo Exhibit Volunteer \emph{} \\ 
+& \textsc{The University of Wisconsin--Madison} \\
+& \footnotesize{Engineering Expo is a two-day outreach experience for elementary and middle school students that targets traditionally low-interest groups, particularly under-represented minorities and females, with hands-on activities design to generate situational interest in STEM. I have had the privilege to engage in the biomechanics exhibit, first as a volunteer, and later as the coordinator, titled The Human Machine. Students explore fundamental motion capture, gait analysis, electromyography, and musculoskeletal anatomy. Pre- and post-exhibit surveys are implemented to gauge the effectiveness of various modules at increasing interest in a STEM career. } \\
+\multicolumn{2}{c}{} \\
+
+\textsc{2019} & Science Expeditions Exhibit Volunteer \emph{} \\ 
+& \textsc{The University of Wisconsin--Madison} \\
+& \footnotesize{As a part of a Delta Program class I took during the spring semester in 2019 (Informal Science Education for Scientists and Engineers), I worked with a team to develop an exhibit focused on the brain and the importance of helmets to prevent and mitigate concussions. We then implemented this exhibit at Science Expeditions in 2019.} \\
+\multicolumn{2}{c}{} \\
+
+\textsc{2017} & Dordt Discovery Days Instructor \emph{} \\ 
+& \textsc{Dordt College} \\
+& \footnotesize{Dordt Discovery Days is a week-long camp for middle school students to explore a range of future career paths. As the primary engineering instructor, I developed teaching modules centered around basic engineering principles, including lectures and hands-on projects. My primary objective for the camp was to leave the students with the idea that engineering and math are fun, not boring, and that with a little bit of science and hard work, they can achieve things that can change the world. } \\
+
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	REFERENCES
+%----------------------------------------------------------------------------------------
+
+%\section{References}
+
+%\begin{tabular}{rl}
+
+%\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS 
+%----------------------------------------------------------------------------------------
+
+%\section{Get rid of this}
+
+%\begin{tabular}{rl}
+%Basic Knowledge: & \textsc{php}, my\textsc{sql}, \textsc{html}, Access, \textsc{Linux}, ubuntu, {\fb \LaTeX}\setmainfont[SmallCapsFont=Fontin SmallCaps]{Fontin-Regular}\\
+
+%Intermediate Knowledge: & \textsc{vba}, Excel, Word, PowerPoint\\
+%\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS AND ACTIVITIES
+%----------------------------------------------------------------------------------------
+
+%\section{Get rid of this}
+
+%Technology, Open-Source, Programming\\
+%Paradoxes in Decision Making, Psychoanalysis, Behavioural Finance\\
+%Football, Travelling
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
